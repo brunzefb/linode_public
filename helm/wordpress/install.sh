@@ -18,5 +18,5 @@ helm upgrade \
   --set ingress.annotations."cert-manager\.io/cluster-issuer"="letsencrypt-prod" \
   --set ingress.tls=true \
   --set ingress.ingressClassName="nginx" \
-  -- install \
+  --install \
   --namespace apps \
